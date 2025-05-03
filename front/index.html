@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Agenda</h1>
+    </header>
+
+    <div id="calendario-container">
+        <div id="controle-calendario">
+          <button id="prev">«</button>
+          <span id="titulo-calendario"></span>
+          <button id="next">»</button>
+        </div>
+        <div id="dias-semana">
+          <span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span>
+        </div>
+        <div id="dias-mes"></div>
+      </div>
+      
+
+    <form id="form-tarefa">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <input type="date" id="data" required>
+        <input type="time" id="hora" required>
+        <input type="text" id="categoria" placeholder="Categoria">
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <section id="lista-tarefas"></section>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
