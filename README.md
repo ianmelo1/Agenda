@@ -15,5 +15,7 @@ Este é um projeto de backend desenvolvido com **Node.js** e **Express**, que se
 
 ## 📁 Estrutura de Pastas
 
-Create by: Ian Melo ;p
+---
+
+**Create by: Ian Melo ;p e eu sou mt legal**
 
